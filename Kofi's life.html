@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kofi's Admin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="website_java.js"></script>
+
+    <style>
+
+.banner {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 20px; /* spacing between buttons */
+    text-decoration: none;
+    color: #fff; 
+    background-color: #696969; 
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
+.header {
+    padding: 10px 0;
+    text-align: center;
+    background: #C0C0C0;
+    color: black;
+    font-size: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+    border: 2px solid #000000;
+
+}
+
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-image: url('E.Rugby photo.JPG');
+    background-size: auto; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+        }
+
+
+p {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        }
+
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+        }
+
+section {
+    margin-bottom: 20px;
+        }
+
+
+.footer {
+    margin-top: auto;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.footer p {
+    color: #E8E8E8	;
+    opacity: 1; /* Set text opacity to 1 (fully opaque) */
+}
+
+
+
+/* Styles for dropdown box */
+.dropdown-box {
+    width: 600px; /* Adjust width as needed */
+}
+
+/* Styles for dropdown button */
+.dropbtn {
+    padding: 10px;
+    width: 100%;
+    text-align: middle;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #333
+
+}
+
+/* Styles for dropdown content */
+.dropdown-content {
+    display: none;
+    background-color: #696969; /* Dropdown background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Dropdown box shadow */
+    border-radius: 5px;
+    color: #fff; 
+
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff; /* Dropdown link text color */
+}
+
+.dropdown-content a:hover {
+    background-color: #e0e0e0; /* Hover background color */
+    color: #000000;
+}
+
+
+.container {
+
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #696969;
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    width: 500px; /* Adjust width as needed */
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 5px;
+
+}
+
+button.remove-button {
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+    background: none; /* Remove background */
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+ li {
+            text-align: center /* Center the text within list items */
+        }
+    </style>
+
+</head>
+<body>
+
+
+
+   <div class="header">
+	<h1> Kofi's Admin</h1>
+   </div>
+
+   <div class="banner">
+        <a href= "file:///C:/Users/15kof/OneDrive/Desktop/PROJECTS/Website/Kofi's%20life.html" class="button">Home</a>
+	<a href="https://www.eurfc.co.uk/teams/227903/fixtures-results"  target="_blank" class="button">Rugby Fixtures</a>      
+	<a href="https://mytimetable.exeter.ac.uk/schedule" target="_blank" class="button">University Timetable</a>
+	<a href="Socials" class="button" > Social Media</a> 
+    </div>
+
+
+    <p>This website is to help sort out all of Kofi's admin! </p>
+    <p>Whether that be Uni work, Rugby or just general life.</p>
+
+
+
+<div class="dropdown-box">
+    <button onclick="toggleDropdown()" class="dropbtn">Maths Links</button>
+    <div id="dropdown-content" class="dropdown-content">
+        <a href="https://www.derivative-calculator.net/" target="_blank" >Derivative Calculator</a>
+        <a href="https://www.integral-calculator.com/"   target="_blank" >Integral Calculator</a>
+	<a href="https://www.desmos.com/calculator"      target="_blank" >Desmos Graph</a>
+	<a href="https://www.desmos.com/scientific"      target="_blank" >Desmos Calculator</a>
+	<a href="https://www.w3schools.com/"             target="_blank" >Coding Help</a>
+
+
+    </div>
+</div>
+
+
+
+ <div class="container">
+        <h1>To Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add new task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="footer">
+        <p>© 2024 Kofi's Website. All rights reserved.</p>
+        <p>Email: kbartonbyfield@gmail.com | Phone: 07311847182</p>
+</div>
+
+
+
+
+</body>
+</html>
