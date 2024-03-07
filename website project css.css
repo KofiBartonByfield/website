@@ -1,14 +1,13 @@
- body {
-  font-family: Rockwell;
-            margin: 0;
-            padding: 0;
-background-image: url('E.Rugby photo.JPG');
+body {
+    font-family: Rockwell;
+    margin: 0;
+    padding: 0;
+    background-image: url('E.Rugby photo.JPG');
     background-size: auto; /* Cover the entire background */
     background-position: center; /* Center the background */
     min-height: 200vh; /* Ensure the body takes up at least the full viewport height */
-   display: flex;
+    display: flex;
     flex-direction: column;
-
 }
 
 
@@ -21,32 +20,27 @@ header {
 }
 
 header text{
-color: black
-
+    color: black
 }
 
 .title-and-search {
     display: flex;
     align-items: center;
-  font-size: 40px;
-
+    font-size: 40px;
 }
 
 .title-and-search text {
     margin-right: 20px; /* Adjust as needed */
-
 }
 
 .title-and-search form {
     display: flex;
     align-items: center;
-
-
 }
 
 
 /* Search bar input field */
-.title-and-search input[type="text"] {
+    .title-and-search input[type="text"] {
     padding: 8px;
     border: 10x solid #000000
     border-radius: 5x
@@ -55,41 +49,31 @@ color: black
     height: 40px;
     border-radius: 30px;/* Increase border-radius to make corners more round */
     padding-left: 20px; /* Adjust padding-left to move where the typed text starts */
-
-
 }
 
 nav {
-            background-color: #A7BED3;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 5px 10px;
- 	    font-size: 22px;
-            margin: 10px;
-
-
-        }
-        nav a:hover {
-            background-color: #666;
-    border-radius: 30px;/* Increase border-radius to make corners more round */
-
-      }
-
-
-
-
-.welcome-page{
-            padding: 5px 10px;
-
-
+    background-color: #A7BED3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 22px;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: #666;
+    border-radius: 30px;/* Increase border-radius to make corners more round */
+}
+
+.welcome-page{
+    padding: 5px 10px;
+}
 
 .footer {
     margin-top: auto;
@@ -99,8 +83,6 @@ nav {
     text-align: center;
     width: 100%;
     border-radius: 5px;
-
-
 }
 
 /* footer text*/
